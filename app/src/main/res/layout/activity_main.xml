@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please Insert Date:"
+        android:textColor="#090909"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="24dp"
+        android:layout_below="@+id/texttitle"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textSize="24dp"
+        android:layout_below="@+id/fname"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textSize="24dp"
+        android:layout_below="@+id/lname"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="1dp"
+        android:text="Insert New Data"
+        android:textSize="24dp"
+        app:backgroundTint="#E91E1E" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsert"
+        android:text="Update Data"
+        android:textSize="24dp"
+        app:backgroundTint="#FD6C3E" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:text="Delete Existing Data"
+        android:textSize="24dp"
+        app:backgroundTint="#F8DF03" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:text="View Data"
+        android:textSize="24dp"
+        app:backgroundTint="#A7EF54" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnView"
+        android:text="Firebase Crud"
+        android:textSize="24dp"
+        app:backgroundTint="#2196F3" />\
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fb"
+        android:text="Weather"
+        android:textSize="24dp"
+        app:backgroundTint="#8955E6" />
+</RelativeLayout>

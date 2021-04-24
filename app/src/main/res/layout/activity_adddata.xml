@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".adddata">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_fname"
+        android:textSize="20sp"
+        android:hint="First Name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_lname"
+        android:textSize="20sp"
+        android:hint="Last Name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_email"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_phone"
+        android:textSize="20sp"
+        android:hint="Phone Number"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/add_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Add to Firebase"
+        android:textSize="20sp"
+        app:backgroundTint="#262626" />
+
+    <Button
+        android:id="@+id/add_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textSize="20sp"
+        app:backgroundTint="#504E4E" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
